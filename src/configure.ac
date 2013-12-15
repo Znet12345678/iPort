@@ -1,0 +1,5 @@
+AC_INIT([iPort_source],[0.0.1])
+AC_PROG_CC
+AC_PROG_CXX
+AM_INIT_AUTOMAKE
+AC_OUTPUT(Makefile)
