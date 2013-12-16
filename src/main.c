@@ -7,7 +7,6 @@ int main (int argc, char *argv[])
 {
 	if (strncmp(argv[1], "gcc",3) == 0)
 	{
-		
-		system("/usr/local/scripts/iPorts/ports/gcc/install.sh");
+		system("bash -c /usr/local/scripts/iPorts/gcc/install.sh");
 	}
 }
